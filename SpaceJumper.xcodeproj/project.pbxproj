@@ -73,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09F90D331D54AC6300492459 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90DC23BD1D544AF8001D248A /* Assets.xcassets */,
+				90DC23BF1D544AF8001D248A /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		90DC23AB1D544AF8001D248A = {
 			isa = PBXGroup;
 			children = (
@@ -98,9 +107,7 @@
 			children = (
 				90DC23B71D544AF8001D248A /* AppDelegate.h */,
 				90DC23B81D544AF8001D248A /* AppDelegate.m */,
-				90DC23BD1D544AF8001D248A /* Assets.xcassets */,
-				90DC23BF1D544AF8001D248A /* MainMenu.xib */,
-				90DC23C21D544AF8001D248A /* Info.plist */,
+				09F90D331D54AC6300492459 /* Resources */,
 				90DC23BA1D544AF8001D248A /* Supporting Files */,
 			);
 			path = SpaceJumper;
@@ -109,6 +116,7 @@
 		90DC23BA1D544AF8001D248A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				90DC23C21D544AF8001D248A /* Info.plist */,
 				90DC23BB1D544AF8001D248A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -483,6 +491,7 @@
 				90DC23DD1D544AF8001D248A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90DC23DE1D544AF8001D248A /* Build configuration list for PBXNativeTarget "SpaceJumperTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +500,7 @@
 				90DC23E01D544AF8001D248A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90DC23E11D544AF8001D248A /* Build configuration list for PBXNativeTarget "SpaceJumperUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +509,7 @@
 				90DC23E31D544AF8001D248A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
