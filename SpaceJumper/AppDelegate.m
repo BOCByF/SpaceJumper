@@ -11,16 +11,30 @@
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
+
+@property (strong, nonatomic) NSStatusItem *statusItem;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    self.statusItem.image = [NSImage imageNamed:@"SpaceJumper"];
+    self.statusItem.highlightMode = NO;
+    [self.statusItem setAction:@selector(itemClicked:)];
+    
 }
 
-- (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+- (void)itemClicked:(id)sender {
+    NSEvent *event = [NSApp currentEvent];
+    if([event modifierFlags] & NSControlKeyMask) {
+        [[NSApplication sharedApplication] terminate:self];
+        return;
+    }
+    // Open mission control
+    system(@"open -a \"Mission Control\"".UTF8String);
+    
 }
 
 @end
