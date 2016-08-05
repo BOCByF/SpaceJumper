@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90DC23B91D544AF8001D248A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC23B81D544AF8001D248A /* AppDelegate.m */; };
+		90DC23BC1D544AF8001D248A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC23BB1D544AF8001D248A /* main.m */; };
+		90DC23BE1D544AF8001D248A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DC23BD1D544AF8001D248A /* Assets.xcassets */; };
+		90DC23C11D544AF8001D248A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90DC23BF1D544AF8001D248A /* MainMenu.xib */; };
+		90DC23CC1D544AF8001D248A /* SpaceJumperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC23CB1D544AF8001D248A /* SpaceJumperTests.m */; };
+		90DC23D71D544AF8001D248A /* SpaceJumperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DC23D61D544AF8001D248A /* SpaceJumperUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90DC23C81D544AF8001D248A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90DC23AC1D544AF8001D248A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90DC23B31D544AF8001D248A;
+			remoteInfo = SpaceJumper;
+		};
+		90DC23D31D544AF8001D248A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90DC23AC1D544AF8001D248A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90DC23B31D544AF8001D248A;
+			remoteInfo = SpaceJumper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90DC23B41D544AF8001D248A /* SpaceJumper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceJumper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DC23B71D544AF8001D248A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		90DC23B81D544AF8001D248A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		90DC23BB1D544AF8001D248A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90DC23BD1D544AF8001D248A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90DC23C01D544AF8001D248A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		90DC23C21D544AF8001D248A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DC23C71D544AF8001D248A /* SpaceJumperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceJumperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DC23CB1D544AF8001D248A /* SpaceJumperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceJumperTests.m; sourceTree = "<group>"; };
+		90DC23CD1D544AF8001D248A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DC23D21D544AF8001D248A /* SpaceJumperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceJumperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DC23D61D544AF8001D248A /* SpaceJumperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpaceJumperUITests.m; sourceTree = "<group>"; };
+		90DC23D81D544AF8001D248A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90DC23B11D544AF8001D248A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DC23C41D544AF8001D248A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DC23CF1D544AF8001D248A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90DC23AB1D544AF8001D248A = {
+			isa = PBXGroup;
+			children = (
+				90DC23B61D544AF8001D248A /* SpaceJumper */,
+				90DC23CA1D544AF8001D248A /* SpaceJumperTests */,
+				90DC23D51D544AF8001D248A /* SpaceJumperUITests */,
+				90DC23B51D544AF8001D248A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90DC23B51D544AF8001D248A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90DC23B41D544AF8001D248A /* SpaceJumper.app */,
+				90DC23C71D544AF8001D248A /* SpaceJumperTests.xctest */,
+				90DC23D21D544AF8001D248A /* SpaceJumperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90DC23B61D544AF8001D248A /* SpaceJumper */ = {
+			isa = PBXGroup;
+			children = (
+				90DC23B71D544AF8001D248A /* AppDelegate.h */,
+				90DC23B81D544AF8001D248A /* AppDelegate.m */,
+				90DC23BD1D544AF8001D248A /* Assets.xcassets */,
+				90DC23BF1D544AF8001D248A /* MainMenu.xib */,
+				90DC23C21D544AF8001D248A /* Info.plist */,
+				90DC23BA1D544AF8001D248A /* Supporting Files */,
+			);
+			path = SpaceJumper;
+			sourceTree = "<group>";
+		};
+		90DC23BA1D544AF8001D248A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90DC23BB1D544AF8001D248A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90DC23CA1D544AF8001D248A /* SpaceJumperTests */ = {
+			isa = PBXGroup;
+			children = (
+				90DC23CB1D544AF8001D248A /* SpaceJumperTests.m */,
+				90DC23CD1D544AF8001D248A /* Info.plist */,
+			);
+			path = SpaceJumperTests;
+			sourceTree = "<group>";
+		};
+		90DC23D51D544AF8001D248A /* SpaceJumperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90DC23D61D544AF8001D248A /* SpaceJumperUITests.m */,
+				90DC23D81D544AF8001D248A /* Info.plist */,
+			);
+			path = SpaceJumperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90DC23B31D544AF8001D248A /* SpaceJumper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DC23DB1D544AF8001D248A /* Build configuration list for PBXNativeTarget "SpaceJumper" */;
+			buildPhases = (
+				90DC23B01D544AF8001D248A /* Sources */,
+				90DC23B11D544AF8001D248A /* Frameworks */,
+				90DC23B21D544AF8001D248A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceJumper;
+			productName = SpaceJumper;
+			productReference = 90DC23B41D544AF8001D248A /* SpaceJumper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90DC23C61D544AF8001D248A /* SpaceJumperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DC23DE1D544AF8001D248A /* Build configuration list for PBXNativeTarget "SpaceJumperTests" */;
+			buildPhases = (
+				90DC23C31D544AF8001D248A /* Sources */,
+				90DC23C41D544AF8001D248A /* Frameworks */,
+				90DC23C51D544AF8001D248A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90DC23C91D544AF8001D248A /* PBXTargetDependency */,
+			);
+			name = SpaceJumperTests;
+			productName = SpaceJumperTests;
+			productReference = 90DC23C71D544AF8001D248A /* SpaceJumperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90DC23D11D544AF8001D248A /* SpaceJumperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90DC23E11D544AF8001D248A /* Build configuration list for PBXNativeTarget "SpaceJumperUITests" */;
+			buildPhases = (
+				90DC23CE1D544AF8001D248A /* Sources */,
+				90DC23CF1D544AF8001D248A /* Frameworks */,
+				90DC23D01D544AF8001D248A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90DC23D41D544AF8001D248A /* PBXTargetDependency */,
+			);
+			name = SpaceJumperUITests;
+			productName = SpaceJumperUITests;
+			productReference = 90DC23D21D544AF8001D248A /* SpaceJumperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90DC23AC1D544AF8001D248A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = BOC;
+				TargetAttributes = {
+					90DC23B31D544AF8001D248A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					90DC23C61D544AF8001D248A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 90DC23B31D544AF8001D248A;
+					};
+					90DC23D11D544AF8001D248A = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 90DC23B31D544AF8001D248A;
+					};
+				};
+			};
+			buildConfigurationList = 90DC23AF1D544AF8001D248A /* Build configuration list for PBXProject "SpaceJumper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90DC23AB1D544AF8001D248A;
+			productRefGroup = 90DC23B51D544AF8001D248A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90DC23B31D544AF8001D248A /* SpaceJumper */,
+				90DC23C61D544AF8001D248A /* SpaceJumperTests */,
+				90DC23D11D544AF8001D248A /* SpaceJumperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90DC23B21D544AF8001D248A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DC23BE1D544AF8001D248A /* Assets.xcassets in Resources */,
+				90DC23C11D544AF8001D248A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DC23C51D544AF8001D248A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DC23D01D544AF8001D248A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90DC23B01D544AF8001D248A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DC23BC1D544AF8001D248A /* main.m in Sources */,
+				90DC23B91D544AF8001D248A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DC23C31D544AF8001D248A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DC23CC1D544AF8001D248A /* SpaceJumperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90DC23CE1D544AF8001D248A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90DC23D71D544AF8001D248A /* SpaceJumperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90DC23C91D544AF8001D248A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90DC23B31D544AF8001D248A /* SpaceJumper */;
+			targetProxy = 90DC23C81D544AF8001D248A /* PBXContainerItemProxy */;
+		};
+		90DC23D41D544AF8001D248A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90DC23B31D544AF8001D248A /* SpaceJumper */;
+			targetProxy = 90DC23D31D544AF8001D248A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90DC23BF1D544AF8001D248A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90DC23C01D544AF8001D248A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90DC23D91D544AF8001D248A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		90DC23DA1D544AF8001D248A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		90DC23DC1D544AF8001D248A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpaceJumper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boc.SpaceJumper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90DC23DD1D544AF8001D248A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpaceJumper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boc.SpaceJumper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90DC23DF1D544AF8001D248A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpaceJumperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boc.SpaceJumperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceJumper.app/Contents/MacOS/SpaceJumper";
+			};
+			name = Debug;
+		};
+		90DC23E01D544AF8001D248A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpaceJumperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boc.SpaceJumperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpaceJumper.app/Contents/MacOS/SpaceJumper";
+			};
+			name = Release;
+		};
+		90DC23E21D544AF8001D248A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpaceJumperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boc.SpaceJumperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpaceJumper;
+			};
+			name = Debug;
+		};
+		90DC23E31D544AF8001D248A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SpaceJumperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = boc.SpaceJumperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpaceJumper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90DC23AF1D544AF8001D248A /* Build configuration list for PBXProject "SpaceJumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DC23D91D544AF8001D248A /* Debug */,
+				90DC23DA1D544AF8001D248A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90DC23DB1D544AF8001D248A /* Build configuration list for PBXNativeTarget "SpaceJumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DC23DC1D544AF8001D248A /* Debug */,
+				90DC23DD1D544AF8001D248A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90DC23DE1D544AF8001D248A /* Build configuration list for PBXNativeTarget "SpaceJumperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DC23DF1D544AF8001D248A /* Debug */,
+				90DC23E01D544AF8001D248A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90DC23E11D544AF8001D248A /* Build configuration list for PBXNativeTarget "SpaceJumperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DC23E21D544AF8001D248A /* Debug */,
+				90DC23E31D544AF8001D248A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90DC23AC1D544AF8001D248A /* Project object */;
+}
