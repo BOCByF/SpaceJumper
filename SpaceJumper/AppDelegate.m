@@ -20,7 +20,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
-    self.statusItem.image = [NSImage imageNamed:@"SpaceJumper"];
+    self.statusItem.image = [NSImage imageNamed:@"SpaceJumperWithPadding"];
     self.statusItem.highlightMode = NO;
     [self.statusItem setAction:@selector(itemClicked:)];
     
